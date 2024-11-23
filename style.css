@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter';
+  color: #f3f3e0;
+}
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: auto;
+  height: auto;
+}
+button {
+  font-size: 1.2rem;
+  background-color: #608bc1;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 100px;
+}
+label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #f3f3e0;
+}
+input,
+option,
+select {
+  height: 40px;
+  border-radius: 10px;
+  background-color: #f3f3e0;
+  font-size: 1.2rem;
+  border: none;
+}
+input {
+  padding: 0px 10px;
+  color: #608bc1;
+}
+option,
+select {
+  color: #608bc1;
+}
+body {
+  background-color: #cbdceb;
+  min-height: 100vh;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+h1 {
+  background-color: #133e87;
+  padding: 5px 10px;
+  font-size: 2rem;
+  margin: 20px;
+  color: #f3f3e0;
+  border-radius: 16px;
+  min-height: 40px;
+  min-width: 375px;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+li {
+  color: #133e87;
+}
+main {
+  width: 1140px;
+  height: 746px;
+  border-radius: 50px;
+  background-color: #133e87;
+  display: flex;
+
+  overflow: hidden;
+}
+.catImage {
+  background-image: url('Cat.jfif');
+  background-repeat: no-repeat;
+  height: inherit;
+  width: 50%;
+  background-size: cover;
+}
+form {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 50%;
+}
+.inputField {
+  display: flex;
+  width: 431px;
+  gap: 8px;
+  flex-direction: column;
+}
+.inputSex,
+.inputInterest {
+  display: flex;
+  column-gap: 50px;
+  justify-content: start;
+}
+.inputInterest {
+  flex-wrap: wrap;
+}
+.sex {
+  padding-right: 120px;
+  padding-left: 20px;
+  font-size: 0.8rem;
+}
+.interest {
+  font-size: 0.8rem;
+}
+
+table,
+tr,
+th,
+td {
+  background-color: #608bc1;
+  height: auto;
+  text-align: center;
+  border-collapse: collapse;
+  border: #cbdceb solid 2px;
+}
+td,
+th {
+  height: 40px;
+  min-width: 100px;
+}
+th {
+  background-color: #133e87;
+}
+table {
+  width: 1100px;
+}

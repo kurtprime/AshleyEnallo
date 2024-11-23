@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Student Enrollment Form</title>
+  </head>
+  <body>
+    <div class="top">
+      <h1>Student Enrollment Form</h1>
+      <ol>
+        <li>Fill in the form fields</li>
+        <li>Check your interests</li>
+        <li>Click "Enroll Now" to submit</li>
+      </ol>
+    </div>
+
+    <main>
+      <div class="catImage"></div>
+      <form>
+        <div class="inputField">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter name" />
+        </div>
+        <div class="inputField">
+          <label>Email Address</label>
+          <input type="email" placeholder="Enter Email" />
+        </div>
+        <div class="inputField">
+          <label>Age</label>
+          <input type="number" placeholder="Enter Age " />
+        </div>
+        <div class="inputField">
+          <label>Sex</label>
+          <div class="inputSex">
+            <span>
+              <input class="sexRadio" type="radio" name="sex" value="Male" />
+              <label class="sex" for="male">Male</label>
+            </span>
+            <span>
+              <input class="sexRadio" type="radio" name="sex" value="Female" />
+              <label class="sex" for="male">Female</label>
+            </span>
+          </div>
+        </div>
+        <div class="inputField">
+          <label>Course Options</label>
+          <select name="course">
+            <option value="BSIT">BSIT</option>
+            <option value="BSSW">BSSW</option>
+            <option value="BSPA">BSPA</option>
+            <option value="BSCS">BSCS</option>
+          </select>
+        </div>
+        <div class="inputField">
+          <label>Interests</label>
+          <div class="inputInterest">
+            <span>
+              <input
+                class="interestCB"
+                value="Web Development"
+                type="checkbox"
+              />
+              <label class="interest">Web Development</label>
+            </span>
+            <span>
+              <input class="interestCB" type="checkbox" />
+              <label class="interest">Data Science</label>
+            </span>
+            <span>
+              <input class="interestCB" type="checkbox" />
+              <label class="interest">Graphic Design</label>
+            </span>
+            <span>
+              <input class="interestCB" type="checkbox" />
+              <label class="interest">Networking</label>
+            </span>
+          </div>
+        </div>
+        <button>Submit</button>
+      </form>
+    </main>
+    <footer>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Age</th>
+            <th>Sex</th>
+            <th>Course</th>
+            <th>Interests</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Chris P. Bacon</td>
+            <td>crispybacon@gamil.com</td>
+            <td>22</td>
+            <td>Male</td>
+            <td>BSIT</td>
+            <td>Web Development, Data Science</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Pasta La Vista</td>
+            <td>imnoodly@gmail.com</td>
+            <td>20</td>
+            <td>Female</td>
+            <td>BSSW</td>
+            <td>Social services, Advocacy</td>
+          </tr>
+        </tbody>
+
+        <tbody>
+          <tr>
+            <td>7</td>
+            <td>Anna Rexia</td>
+            <td>FITLIFESTYLE@gmail.com</td>
+            <td>22</td>
+            <td>Female</td>
+            <td>BSBA</td>
+            <td>Public service,Policy-making</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Hugh Jass</td>
+            <td>IMBIG@yahoo.com</td>
+            <td>21</td>
+            <td>Male</td>
+            <td>BSIT</td>
+            <td>Auditing, Accounting principles</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Gail Forcewind</td>
+            <td>STORMSAREME@gmail.com</td>
+            <td>23</td>
+            <td>Female</td>
+            <td>BSCS</td>
+            <td>Web Development, Data Science</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Rick O’Shea</td>
+            <td>BOUNCING@gmail.com</td>
+            <td>24</td>
+            <td>Male</td>
+            <td>BSECE</td>
+            <td>Linguistics,Communication</td>
+          </tr>
+        </tbody>
+      </table>
+    </footer>
+  </body>
+</html>
